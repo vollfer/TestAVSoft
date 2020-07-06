@@ -7,21 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1243552D24AA25D6007072A0 /* MenuViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1243552C24AA25D6007072A0 /* MenuViewControler.swift */; };
+		1243552F24AA25FB007072A0 /* MenuAssemble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1243552E24AA25FB007072A0 /* MenuAssemble.swift */; };
+		1243553124AA2614007072A0 /* MenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1243553024AA2614007072A0 /* MenuRouter.swift */; };
+		1243553324AA2628007072A0 /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1243553224AA2628007072A0 /* MenuPresenter.swift */; };
+		1243553524AA2B34007072A0 /* MenuTableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1243553424AA2B34007072A0 /* MenuTableViewManager.swift */; };
+		1243553724AA2BB0007072A0 /* MenuTableViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1243553624AA2BB0007072A0 /* MenuTableViewControllerCell.swift */; };
+		1243656B24B25A5A005F3C2F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1243656A24B25A5A005F3C2F /* Person.swift */; };
+		124893DB24B3696A0016531F /* Persons.txt in Resources */ = {isa = PBXBuildFile; fileRef = 124893DA24B3696A0016531F /* Persons.txt */; };
+		124893E124B383800016531F /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124893E024B383800016531F /* ApplicationAssembly.swift */; };
+		124893E324B383B10016531F /* AboutApplicationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124893E224B383B10016531F /* AboutApplicationRouter.swift */; };
+		124893E524B383D30016531F /* AboutApplicationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124893E424B383D30016531F /* AboutApplicationPresenter.swift */; };
+		124893E724B383F30016531F /* AboutApplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124893E624B383F30016531F /* AboutApplicationView.swift */; };
+		1285A61324A3D8EC00CAABB2 /* SecondMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285A61224A3D8EC00CAABB2 /* SecondMenuViewController.swift */; };
+		1285A61524A3D93E00CAABB2 /* SecondMenuAssemble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285A61424A3D93E00CAABB2 /* SecondMenuAssemble.swift */; };
+		1285A61824A3D96400CAABB2 /* SecondMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285A61724A3D96400CAABB2 /* SecondMenuRouter.swift */; };
+		1285A61A24A3D97600CAABB2 /* SecondMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285A61924A3D97600CAABB2 /* SecondMenuPresenter.swift */; };
+		1285A61E24A4C35000CAABB2 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285A61D24A4C35000CAABB2 /* Module.swift */; };
+		1285A62024A5008700CAABB2 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285A61F24A5008700CAABB2 /* CustomView.swift */; };
+		1285A62B24A6321700CAABB2 /* EditMenuAssemble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285A62A24A6321700CAABB2 /* EditMenuAssemble.swift */; };
+		1285A62D24A6323000CAABB2 /* EditMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285A62C24A6323000CAABB2 /* EditMenuPresenter.swift */; };
+		1285A63024A6324C00CAABB2 /* EditMenuViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285A62F24A6324C00CAABB2 /* EditMenuViewControler.swift */; };
+		1285A63224A6325800CAABB2 /* EditMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285A63124A6325800CAABB2 /* EditMenuRouter.swift */; };
 		12E3A52C24A1038C00AD8201 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A52B24A1038C00AD8201 /* AppDelegate.swift */; };
-		12E3A52E24A1038C00AD8201 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A52D24A1038C00AD8201 /* SceneDelegate.swift */; };
-		12E3A53024A1038C00AD8201 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A52F24A1038C00AD8201 /* ViewController.swift */; };
 		12E3A53524A1039000AD8201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E3A53424A1039000AD8201 /* Assets.xcassets */; };
 		12E3A53824A1039000AD8201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E3A53624A1039000AD8201 /* LaunchScreen.storyboard */; };
+		12E3A54224A1083100AD8201 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A54124A1083100AD8201 /* Assembly.swift */; };
+		12E3A54424A1085F00AD8201 /* ModuleTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A54324A1085F00AD8201 /* ModuleTransitionHandler.swift */; };
+		12E3A54624A1088800AD8201 /* ViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A54524A1088800AD8201 /* ViewOutput.swift */; };
+		12E3A54D24A10D7900AD8201 /* FirstMessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A54C24A10D7900AD8201 /* FirstMessionViewController.swift */; };
+		12E3A54F24A1138200AD8201 /* FirstMessionAssemble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A54E24A1138200AD8201 /* FirstMessionAssemble.swift */; };
+		12E3A55124A1151D00AD8201 /* FirstMessionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A55024A1151D00AD8201 /* FirstMessionPresenter.swift */; };
+		12E3A55324A115C600AD8201 /* FirstMessionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A55224A115C600AD8201 /* FirstMessionRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1243552C24AA25D6007072A0 /* MenuViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewControler.swift; sourceTree = "<group>"; };
+		1243552E24AA25FB007072A0 /* MenuAssemble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAssemble.swift; sourceTree = "<group>"; };
+		1243553024AA2614007072A0 /* MenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRouter.swift; sourceTree = "<group>"; };
+		1243553224AA2628007072A0 /* MenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenter.swift; sourceTree = "<group>"; };
+		1243553424AA2B34007072A0 /* MenuTableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewManager.swift; sourceTree = "<group>"; };
+		1243553624AA2BB0007072A0 /* MenuTableViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewControllerCell.swift; sourceTree = "<group>"; };
+		1243656A24B25A5A005F3C2F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		124893DA24B3696A0016531F /* Persons.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Persons.txt; sourceTree = "<group>"; };
+		124893E024B383800016531F /* ApplicationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
+		124893E224B383B10016531F /* AboutApplicationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApplicationRouter.swift; sourceTree = "<group>"; };
+		124893E424B383D30016531F /* AboutApplicationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApplicationPresenter.swift; sourceTree = "<group>"; };
+		124893E624B383F30016531F /* AboutApplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApplicationView.swift; sourceTree = "<group>"; };
+		1285A61224A3D8EC00CAABB2 /* SecondMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMenuViewController.swift; sourceTree = "<group>"; };
+		1285A61424A3D93E00CAABB2 /* SecondMenuAssemble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMenuAssemble.swift; sourceTree = "<group>"; };
+		1285A61724A3D96400CAABB2 /* SecondMenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMenuRouter.swift; sourceTree = "<group>"; };
+		1285A61924A3D97600CAABB2 /* SecondMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMenuPresenter.swift; sourceTree = "<group>"; };
+		1285A61D24A4C35000CAABB2 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		1285A61F24A5008700CAABB2 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		1285A62A24A6321700CAABB2 /* EditMenuAssemble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMenuAssemble.swift; sourceTree = "<group>"; };
+		1285A62C24A6323000CAABB2 /* EditMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMenuPresenter.swift; sourceTree = "<group>"; };
+		1285A62F24A6324C00CAABB2 /* EditMenuViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMenuViewControler.swift; sourceTree = "<group>"; };
+		1285A63124A6325800CAABB2 /* EditMenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMenuRouter.swift; sourceTree = "<group>"; };
 		12E3A52824A1038C00AD8201 /* TestAVSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAVSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E3A52B24A1038C00AD8201 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12E3A52D24A1038C00AD8201 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12E3A52F24A1038C00AD8201 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12E3A53424A1039000AD8201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12E3A53724A1039000AD8201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12E3A53924A1039000AD8201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E3A54124A1083100AD8201 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		12E3A54324A1085F00AD8201 /* ModuleTransitionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTransitionHandler.swift; sourceTree = "<group>"; };
+		12E3A54524A1088800AD8201 /* ViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOutput.swift; sourceTree = "<group>"; };
+		12E3A54C24A10D7900AD8201 /* FirstMessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMessionViewController.swift; sourceTree = "<group>"; };
+		12E3A54E24A1138200AD8201 /* FirstMessionAssemble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMessionAssemble.swift; sourceTree = "<group>"; };
+		12E3A55024A1151D00AD8201 /* FirstMessionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMessionPresenter.swift; sourceTree = "<group>"; };
+		12E3A55224A115C600AD8201 /* FirstMessionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMessionRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +89,191 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1243552624AA2521007072A0 /* Assemble */ = {
+			isa = PBXGroup;
+			children = (
+				1243552E24AA25FB007072A0 /* MenuAssemble.swift */,
+			);
+			path = Assemble;
+			sourceTree = "<group>";
+		};
+		1243552924AA255F007072A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1243552C24AA25D6007072A0 /* MenuViewControler.swift */,
+				1243553424AA2B34007072A0 /* MenuTableViewManager.swift */,
+				1243553624AA2BB0007072A0 /* MenuTableViewControllerCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1243552A24AA2569007072A0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1243553024AA2614007072A0 /* MenuRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1243552B24AA2576007072A0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1243553224AA2628007072A0 /* MenuPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1243656924B25A3C005F3C2F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1243656A24B25A5A005F3C2F /* Person.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		124893DC24B382C20016531F /* Assemble */ = {
+			isa = PBXGroup;
+			children = (
+				124893E024B383800016531F /* ApplicationAssembly.swift */,
+			);
+			path = Assemble;
+			sourceTree = "<group>";
+		};
+		124893DD24B382D70016531F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				124893E224B383B10016531F /* AboutApplicationRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		124893DE24B382E10016531F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				124893E624B383F30016531F /* AboutApplicationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		124893DF24B382F50016531F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				124893E424B383D30016531F /* AboutApplicationPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1285A60C24A3D86500CAABB2 /* SecondMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1285A60D24A3D88700CAABB2 /* Assemble */,
+				1285A61124A3D8BE00CAABB2 /* Presenter */,
+				1285A60E24A3D89B00CAABB2 /* View */,
+				1285A61024A3D8B300CAABB2 /* Router */,
+			);
+			path = SecondMenu;
+			sourceTree = "<group>";
+		};
+		1285A60D24A3D88700CAABB2 /* Assemble */ = {
+			isa = PBXGroup;
+			children = (
+				1285A61424A3D93E00CAABB2 /* SecondMenuAssemble.swift */,
+			);
+			path = Assemble;
+			sourceTree = "<group>";
+		};
+		1285A60E24A3D89B00CAABB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1285A61224A3D8EC00CAABB2 /* SecondMenuViewController.swift */,
+				1285A61F24A5008700CAABB2 /* CustomView.swift */,
+				1285A61D24A4C35000CAABB2 /* Module.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1285A61024A3D8B300CAABB2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1285A61724A3D96400CAABB2 /* SecondMenuRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1285A61124A3D8BE00CAABB2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1285A61924A3D97600CAABB2 /* SecondMenuPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1285A62124A6315C00CAABB2 /* EditMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1243656924B25A3C005F3C2F /* Entity */,
+				1285A62724A631D400CAABB2 /* Route */,
+				1285A62624A631C400CAABB2 /* View */,
+				1285A62524A631A200CAABB2 /* Presenter */,
+				1285A62424A6319400CAABB2 /* Assemble */,
+			);
+			path = EditMenu;
+			sourceTree = "<group>";
+		};
+		1285A62224A6317500CAABB2 /* ViewMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1243552624AA2521007072A0 /* Assemble */,
+				1243552B24AA2576007072A0 /* Presenter */,
+				1243552A24AA2569007072A0 /* Router */,
+				1243552924AA255F007072A0 /* View */,
+			);
+			path = ViewMenu;
+			sourceTree = "<group>";
+		};
+		1285A62324A6318000CAABB2 /* AboutApplication */ = {
+			isa = PBXGroup;
+			children = (
+				124893DF24B382F50016531F /* Presenter */,
+				124893DE24B382E10016531F /* View */,
+				124893DD24B382D70016531F /* Router */,
+				124893DC24B382C20016531F /* Assemble */,
+			);
+			path = AboutApplication;
+			sourceTree = "<group>";
+		};
+		1285A62424A6319400CAABB2 /* Assemble */ = {
+			isa = PBXGroup;
+			children = (
+				1285A62A24A6321700CAABB2 /* EditMenuAssemble.swift */,
+			);
+			path = Assemble;
+			sourceTree = "<group>";
+		};
+		1285A62524A631A200CAABB2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1285A62C24A6323000CAABB2 /* EditMenuPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1285A62624A631C400CAABB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1285A62F24A6324C00CAABB2 /* EditMenuViewControler.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1285A62724A631D400CAABB2 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				1285A63124A6325800CAABB2 /* EditMenuRouter.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
 		12E3A51F24A1038C00AD8201 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +293,80 @@
 		12E3A52A24A1038C00AD8201 /* TestAVSoft */ = {
 			isa = PBXGroup;
 			children = (
-				12E3A52B24A1038C00AD8201 /* AppDelegate.swift */,
-				12E3A52D24A1038C00AD8201 /* SceneDelegate.swift */,
-				12E3A52F24A1038C00AD8201 /* ViewController.swift */,
+				12E3A53F24A107A800AD8201 /* AppDelegate */,
+				1285A62324A6318000CAABB2 /* AboutApplication */,
+				1285A62224A6317500CAABB2 /* ViewMenu */,
+				1285A62124A6315C00CAABB2 /* EditMenu */,
+				1285A60C24A3D86500CAABB2 /* SecondMenu */,
+				12E3A54724A108C800AD8201 /* FirstMenu */,
+				12E3A54024A1081200AD8201 /* Protocol */,
 				12E3A53424A1039000AD8201 /* Assets.xcassets */,
 				12E3A53624A1039000AD8201 /* LaunchScreen.storyboard */,
 				12E3A53924A1039000AD8201 /* Info.plist */,
+				124893DA24B3696A0016531F /* Persons.txt */,
 			);
 			path = TestAVSoft;
+			sourceTree = "<group>";
+		};
+		12E3A53F24A107A800AD8201 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				12E3A52B24A1038C00AD8201 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		12E3A54024A1081200AD8201 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				12E3A54124A1083100AD8201 /* Assembly.swift */,
+				12E3A54324A1085F00AD8201 /* ModuleTransitionHandler.swift */,
+				12E3A54524A1088800AD8201 /* ViewOutput.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		12E3A54724A108C800AD8201 /* FirstMenu */ = {
+			isa = PBXGroup;
+			children = (
+				12E3A54824A10CEA00AD8201 /* Assemble */,
+				12E3A54B24A10D2100AD8201 /* Presenter */,
+				12E3A54A24A10D0400AD8201 /* View */,
+				12E3A54924A10CFA00AD8201 /* Router */,
+			);
+			path = FirstMenu;
+			sourceTree = "<group>";
+		};
+		12E3A54824A10CEA00AD8201 /* Assemble */ = {
+			isa = PBXGroup;
+			children = (
+				12E3A54E24A1138200AD8201 /* FirstMessionAssemble.swift */,
+			);
+			path = Assemble;
+			sourceTree = "<group>";
+		};
+		12E3A54924A10CFA00AD8201 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				12E3A55224A115C600AD8201 /* FirstMessionRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		12E3A54A24A10D0400AD8201 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12E3A54C24A10D7900AD8201 /* FirstMessionViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12E3A54B24A10D2100AD8201 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				12E3A55024A1151D00AD8201 /* FirstMessionPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +429,7 @@
 			files = (
 				12E3A53824A1039000AD8201 /* LaunchScreen.storyboard in Resources */,
 				12E3A53524A1039000AD8201 /* Assets.xcassets in Resources */,
+				124893DB24B3696A0016531F /* Persons.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,9 +440,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E3A53024A1038C00AD8201 /* ViewController.swift in Sources */,
+				1243656B24B25A5A005F3C2F /* Person.swift in Sources */,
+				124893E524B383D30016531F /* AboutApplicationPresenter.swift in Sources */,
+				1243553124AA2614007072A0 /* MenuRouter.swift in Sources */,
+				124893E724B383F30016531F /* AboutApplicationView.swift in Sources */,
+				1285A62024A5008700CAABB2 /* CustomView.swift in Sources */,
+				1285A62B24A6321700CAABB2 /* EditMenuAssemble.swift in Sources */,
+				12E3A55124A1151D00AD8201 /* FirstMessionPresenter.swift in Sources */,
+				1285A61A24A3D97600CAABB2 /* SecondMenuPresenter.swift in Sources */,
+				12E3A54424A1085F00AD8201 /* ModuleTransitionHandler.swift in Sources */,
+				1285A63224A6325800CAABB2 /* EditMenuRouter.swift in Sources */,
+				1285A62D24A6323000CAABB2 /* EditMenuPresenter.swift in Sources */,
+				1285A61324A3D8EC00CAABB2 /* SecondMenuViewController.swift in Sources */,
+				124893E324B383B10016531F /* AboutApplicationRouter.swift in Sources */,
+				1243553524AA2B34007072A0 /* MenuTableViewManager.swift in Sources */,
+				1243552D24AA25D6007072A0 /* MenuViewControler.swift in Sources */,
+				1243553724AA2BB0007072A0 /* MenuTableViewControllerCell.swift in Sources */,
+				1285A61824A3D96400CAABB2 /* SecondMenuRouter.swift in Sources */,
+				124893E124B383800016531F /* ApplicationAssembly.swift in Sources */,
+				12E3A55324A115C600AD8201 /* FirstMessionRouter.swift in Sources */,
+				1285A61524A3D93E00CAABB2 /* SecondMenuAssemble.swift in Sources */,
+				1243553324AA2628007072A0 /* MenuPresenter.swift in Sources */,
+				1243552F24AA25FB007072A0 /* MenuAssemble.swift in Sources */,
 				12E3A52C24A1038C00AD8201 /* AppDelegate.swift in Sources */,
-				12E3A52E24A1038C00AD8201 /* SceneDelegate.swift in Sources */,
+				1285A63024A6324C00CAABB2 /* EditMenuViewControler.swift in Sources */,
+				12E3A54224A1083100AD8201 /* Assembly.swift in Sources */,
+				12E3A54F24A1138200AD8201 /* FirstMessionAssemble.swift in Sources */,
+				1285A61E24A4C35000CAABB2 /* Module.swift in Sources */,
+				12E3A54D24A10D7900AD8201 /* FirstMessionViewController.swift in Sources */,
+				12E3A54624A1088800AD8201 /* ViewOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
