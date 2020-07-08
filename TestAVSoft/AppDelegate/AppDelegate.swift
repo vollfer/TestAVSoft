@@ -12,14 +12,14 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     public var window: UIWindow?
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let firstMession = FirstMessionAssemble.assembleModuleNavigation()
         
-                window = UIWindow(frame: UIScreen.main.bounds)
-                window?.rootViewController = firstMession
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = firstMession
         
-                window?.makeKeyAndVisible()
+        window?.makeKeyAndVisible()
         
         return true
     }
